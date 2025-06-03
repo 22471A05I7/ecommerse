@@ -5,7 +5,7 @@ import { BrowserRouter,Route,Routes, Link } from 'react-router-dom'
 import { Provider, useSelector } from 'react-redux'
 import Navbar from './Navbar'
 import Nonveg from './Nonveg'
-import './nav.css'
+import './Navbar.css'
 import Veg from './Veg'
 import './App.css'
 
@@ -42,4 +42,4 @@ function App() {
   
 }
 
-export default App
+export default App;
